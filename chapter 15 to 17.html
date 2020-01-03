@@ -1,0 +1,42 @@
+<html>
+<head>
+<script>
+
+var courses=[];
+
+var course1 = prompt("course1 is ");
+var course2 = prompt("course2 is ");
+var course3 = prompt("course3 is ");
+var course4 = prompt("course4 is ");
+var course5 = prompt("course5 is   ");
+courses.push(course1,course2,course3,course4,course5);
+
+alert(courses);
+
+
+course=prompt("Do you want to edit course",course1);
+courses.splice(0,1,course1);
+
+
+course=prompt("Do you want to edit course",course2);
+courses.splice(1,1,course2);
+
+
+course=prompt("Do you want to edit course",course3);
+courses.splice(2,1,course3);
+
+
+course=prompt("Do you want to edit course",course4);
+courses.splice(3,1,course4);
+
+
+course=prompt("Do you want to edit course",course5);
+courses.splice(4,1,course5);
+
+
+alert(courses);
+
+
+</script>
+</head>
+</html>
